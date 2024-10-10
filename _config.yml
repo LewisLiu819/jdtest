@@ -1,8 +1,26 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: "课程网站"
+description: "这是一个带侧边栏的课程网站"
+theme: "just-the-docs"
+logo: "/assets/logo.png" # 如果有 logo
 
-url: https://just-the-docs.github.io
+# 导航栏配置
+just_the_docs:
+  logo: "/assets/logo.png" # 网站 logo
+  search_enabled: true     # 是否启用搜索
+  aux_links:               # 你可以在这里加一些辅助链接
+    "GitHub":
+      - "https://github.com/jdtest"
+  show_topnav: true         # 显示顶部导航栏
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Sidebar 配置
+collections:
+  lessons:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: "default"
