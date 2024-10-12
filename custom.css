@@ -1,0 +1,31 @@
+/* 更改侧边栏的字体大小 */
+.sidebar {
+    font-size: 25px; /* 调整为你希望的大小 */
+  }
+  
+  /* 更改侧边栏中的链接的字体大小 */
+  .sidebar a {
+    font-size: 25px; /* 根据需要调整 */
+  }
+  
+  /* 更改导航标题的字体大小 */
+  .sidebar .nav-list-item {
+    font-size: 25px; /* 调整此部分的字体大小 */
+  }
+
+  /* 更改正文的字体大小 */
+body {
+    font-size: 18px;
+  }
+  
+  /* 更改标题的字体大小 */
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+  
