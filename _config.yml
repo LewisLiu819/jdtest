@@ -35,6 +35,7 @@ defaults:
       layout: "default"
 
 theme: "just-the-docs"
+nav_enabled: true
 
 exclude:
   # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
